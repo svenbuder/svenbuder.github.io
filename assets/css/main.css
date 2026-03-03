@@ -2813,6 +2813,52 @@ input, select, textarea {
 		list-style: none;
 	}
 
+
+		/* Use CSS grid instead of Stellar's flex widths for this list */
+		.features.themes {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		gap: 2.5rem;
+		width: 100%;
+		margin: 0 0 3em 0;
+		}
+
+		/* Remove Stellar's spacing logic that assumes flex columns */
+		.features.themes li {
+		width: auto;
+		margin: 0;
+		}
+
+		/* Make tile content breathe a bit */
+		.features.themes li {
+		padding: 1.25rem 1.25rem 1rem 1.25rem;
+		border-radius: 10px;
+		background: rgba(0,0,0,0.03);
+		border: 1px solid rgba(0,0,0,0.08);
+		}
+
+		/* Ensure consistent image area */
+		.features.themes .image.major img {
+		width: 100%;
+		height: auto;
+		display: block;
+		}
+
+		/* Breakpoints: 2 columns on tablets */
+		@media screen and (max-width: 980px) {
+		.features.themes {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+		}
+
+		/* Breakpoints: 1 column on phones */
+		@media screen and (max-width: 736px) {
+		.features.themes {
+			grid-template-columns: 1fr;
+			gap: 1.75rem;
+		}
+		}
+
 		/* More breathing room for student tiles inside .features */
 		.features.student-tiles li {
 		margin-top: 4rem;           /* default is ~3rem in Stellar */
@@ -2823,6 +2869,7 @@ input, select, textarea {
 		width: calc(100% + 3em);    /* default is 100% + 2em */
 		margin: 0 0 3em -3em;
 		}
+
 		.features.student-tiles li {
 		margin-left: 2em;           /* default is 2em */
 		}
@@ -2873,7 +2920,6 @@ input, select, textarea {
 
 		
 		}
-
 
 
 /* Statistics */
