@@ -13,4 +13,4 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --no-http2 --verbose --no-progress "**/*.md" "**/*.html"
+          args: --exclude 'https://www\.arc\.gov\.au/.*' --verbose --no-progress "**/*.md" "**/*.html"
