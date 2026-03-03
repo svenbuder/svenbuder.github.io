@@ -13,4 +13,4 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress "**/*.md" "**/*.html"
+          args: --no-http2 --verbose --no-progress "**/*.md" "**/*.html"
