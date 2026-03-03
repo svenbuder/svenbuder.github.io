@@ -1,0 +1,837 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>Dr Sven Buder | Spectroscopy as a unifying thread (ANU)</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+	<!-- SEO / Sharing -->
+	<meta name="description"
+		content="Dr Sven Buder — ARC DECRA Fellow at the Australian National University. I use high-resolution spectroscopy and cosmological simulations to study galaxy evolution via the Milky Way and its analogues, and to map the origin of the elements. I am also actively developing spectroscopy across disciplines, translating robust spectral inference and pipelines beyond astronomy." />
+	<meta name="author" content="Sven Buder" />
+	<link rel="canonical" href="https://YOUR_DOMAIN_OR_GITHUB_PAGES_URL/" />
+
+	<meta property="og:title" content="Dr Sven Buder | Spectroscopy as a unifying thread" />
+	<meta property="og:description"
+		content="Galaxy evolution via the Milky Way, the origin of elements, and spectroscopy across disciplines (a growth direction). Research, software, students, outreach, and contact." />
+	<meta property="og:image" content="https://YOUR_DOMAIN_OR_GITHUB_PAGES_URL/images/collage.jpg" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://YOUR_DOMAIN_OR_GITHUB_PAGES_URL/" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Dr Sven Buder | Spectroscopy as a unifying thread" />
+	<meta name="twitter:description"
+		content="ARC DECRA Fellow at ANU. Galaxy evolution via the Milky Way, the origin of elements, and interdisciplinary spectroscopy (in progress)." />
+	<meta name="twitter:image" content="https://YOUR_DOMAIN_OR_GITHUB_PAGES_URL/images/collage.jpg" />
+
+	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<!-- If your template does not already include Font Awesome, uncomment:
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+	-->
+
+	<!-- Minimal helper CSS (safe to keep here or move into main.css) -->
+	<style>
+		.center {
+			text-align: center;
+		}
+
+		.small {
+			font-size: 0.95em;
+			opacity: 0.95;
+		}
+
+		.note {
+			font-size: 0.9em;
+			opacity: 0.9;
+		}
+
+		.tight {
+			margin-top: 0.35rem;
+			margin-bottom: 0.35rem;
+		}
+
+		.hero-buttons .button {
+			margin: 0.25rem 0.25rem;
+		}
+
+		.pill {
+			display: inline-block;
+			border: 1px solid rgba(255, 255, 255, 0.25);
+			padding: 0.25rem 0.65rem;
+			border-radius: 999px;
+			margin: 0.2rem 0.2rem;
+			font-size: 0.9em;
+		}
+
+		.audience-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+			gap: 0.8rem;
+			margin-top: 1rem;
+		}
+
+		.audience-card {
+			border: 1px solid rgba(0, 0, 0, 0.15);
+			border-radius: 10px;
+			padding: 0.9rem;
+			background: rgba(255, 255, 255, 0.03);
+		}
+
+		.audience-card h4 {
+			margin: 0 0 0.5rem 0;
+		}
+
+		.audience-card ul {
+			margin: 0.4rem 0 0 1.1rem;
+		}
+
+		.skiplinks a {
+			position: absolute;
+			left: -999px;
+			top: auto;
+			width: 1px;
+			height: 1px;
+			overflow: hidden;
+		}
+
+		.skiplinks a:focus {
+			position: static;
+			width: auto;
+			height: auto;
+			margin: 0.5rem;
+			padding: 0.5rem;
+			background: #fff;
+			color: #000;
+			z-index: 9999;
+			display: inline-block;
+		}
+
+		.two-col {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+			gap: 1rem;
+		}
+
+		.callout {
+			border-left: 4px solid rgba(255, 255, 255, 0.25);
+			padding: 0.8rem 1rem;
+			margin: 1rem 0;
+			background: rgba(255, 255, 255, 0.03);
+			border-radius: 8px;
+		}
+
+		.news-list li {
+			margin-bottom: 0.45rem;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<div class="skiplinks">
+		<a href="#home">Skip to home</a>
+		<a href="#science">Skip to research</a>
+		<a href="#theme3">Skip to interdisciplinary spectroscopy</a>
+		<a href="#students">Skip to students</a>
+		<a href="#outreach">Skip to outreach</a>
+		<a href="#contact">Skip to contact</a>
+	</div>
+
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<span class="image avatar"><img src="images/avatar.jpg" alt="Portrait photo of Dr Sven Buder" /></span>
+
+			<h1 id="logo">Dr Sven Buder</h1>
+			<p class="tight">
+				ARC DECRA Fellow (ANU)<br />
+				Galaxy evolution, the origin of elements, and spectroscopy<br />
+				Ngunnawal and Ngambri Country
+			</p>
+
+			<p class="small">
+				I use spectra to measure what matter is made of and how it changes over time.
+				In astronomy, that means decoding the Milky Way’s fossil record and mapping the origin of the elements.
+				I am also actively building collaborations to translate robust spectral inference and pipelines beyond astronomy.
+			</p>
+
+			<div class="tight">
+				<span class="pill">Milky Way &amp; analogues</span>
+				<span class="pill">Origin of elements</span>
+				<span class="pill">High-resolution spectroscopy</span>
+				<span class="pill">Data-driven inference</span>
+				<span class="pill">Pipelines</span>
+			</div>
+		</header>
+
+		<nav id="nav">
+			<ul>
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#science">Astronomy research</a></li>
+				<li><a href="#theme3">Spectroscopy across disciplines</a></li>
+				<li><a href="#publications">Selected publications</a></li>
+				<li><a href="#software">Software &amp; data</a></li>
+				<li><a href="#students">For students</a></li>
+				<li><a href="#outreach">Outreach &amp; media</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		<footer>
+			<ul class="icons">
+				<li>
+					<a href="mailto:sven.buder@anu.edu.au" class="icon fa-envelope" aria-label="Email">
+						<span class="label">Email</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/astro_sven" class="icon brands fa-twitter" target="_blank" rel="noopener noreferrer"
+						aria-label="Twitter / X">
+						<span class="label">Twitter</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/svenbuder" class="icon brands fa-github" target="_blank" rel="noopener noreferrer"
+						aria-label="GitHub">
+						<span class="label">GitHub</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://orcid.org/0000-0002-4031-8553" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+						<img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID icon"
+							style="vertical-align:middle;" />
+					</a>
+				</li>
+				<li>
+					<a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Buder%2C%20Sven%22" target="_blank" rel="noopener noreferrer"
+						aria-label="NASA ADS">
+						<span class="label">ADS</span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<div id="main">
+
+			<!-- HOME -->
+			<section id="home">
+				<header class="major">
+					<div class="center">
+						<div
+							title="Spectroscopy turns light into quantitative measurements. I use it to connect stellar physics, galaxy evolution, and the origin of the elements, and I am actively extending these tools across disciplines.">
+							<a class="image fit">
+								<img src="images/collage.jpg"
+									alt="Collage illustrating spectroscopy-enabled science across stars, galaxies, and analysis pipelines." />
+							</a>
+						</div>
+
+						<h2 class="tight">Spectroscopy as a unifying thread</h2>
+						<p class="tight">
+							ARC DECRA Fellow in Observational Astrophysics at the
+							<a href="https://rsaa.anu.edu.au" target="_blank" rel="noopener noreferrer">Australian National University</a>.
+						</p>
+
+						<p class="small">
+							My research programme connects three tightly linked themes:
+							<strong>(1)</strong> Galaxy evolution via the Milky Way and its analogues,
+							<strong>(2)</strong> The origin of elements through high-precision stellar spectroscopy,
+							and <strong>(3)</strong> Spectroscopy across disciplines (a direction I am actively building).
+						</p>
+
+						<div class="hero-buttons">
+							<a href="data/Sven_Buder_CV_Oct2025.pdf" target="_blank" rel="noopener noreferrer" class="button">CV (PDF)</a>
+							<a href="data/Sven_Buder_ResearchStatement.pdf" target="_blank" rel="noopener noreferrer"
+								class="button">Research statement</a>
+							<a href="data/Sven_Buder_TeachingStatement.pdf" target="_blank" rel="noopener noreferrer"
+								class="button">Teaching statement</a>
+							<a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Buder%2C%20Sven%22" target="_blank"
+								rel="noopener noreferrer" class="button">Publications (ADS)</a>
+						</div>
+
+						<p class="note">
+							This site includes entry points for astronomers, spectroscopy researchers, prospective students, and outreach and media.
+						</p>
+
+						<img src="images/impact.png" width="80%" alt="Impact metrics summary graphic." loading="lazy" />
+					</div>
+				</header>
+
+				<div class="container">
+					<h3>Three connected themes</h3>
+
+					<div class="audience-grid">
+						<div class="audience-card">
+							<h4>(1) Galaxy evolution via the Milky Way</h4>
+							<p class="tight">Chemo-dynamics, mergers, discs, and simulation tests with the Milky Way as a benchmark.</p>
+							<ul>
+								<li><a href="#theme1">Theme 1 details</a></li>
+								<li><a href="#publications">Key papers and links</a></li>
+							</ul>
+						</div>
+
+						<div class="audience-card">
+							<h4>(2) The origin of elements</h4>
+							<p class="tight">High-precision abundances (and isotopic signatures) to map nucleosynthetic pathways.</p>
+							<ul>
+								<li><a href="#theme2">Theme 2 details</a></li>
+								<li><a href="#software">Pipelines and data</a></li>
+							</ul>
+						</div>
+
+						<div class="audience-card">
+							<h4>(3) Spectroscopy across disciplines</h4>
+							<p class="tight">A growth direction: translating calibration, inference, and validation across domains.</p>
+							<ul>
+								<li><a href="#theme3">Theme 3 details</a></li>
+								<li><a href="#contact">Collaboration</a></li>
+							</ul>
+						</div>
+
+						<div class="audience-card">
+							<h4>For students and outreach</h4>
+							<p class="tight">Projects, expectations, and clear explanations of how spectra turn light into knowledge.</p>
+							<ul>
+								<li><a href="#students">For students</a></li>
+								<li><a href="#outreach">Outreach and media</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="callout">
+						<strong>One-sentence summary:</strong> I use high-resolution spectroscopy and simulations to connect stellar physics to galaxy evolution and the origin of the elements, and I am increasingly interested in extending these tools to interdisciplinary spectroscopy.
+					</div>
+
+					<h3>Recent</h3>
+					<ul class="news-list">
+						<li><strong>2025</strong> — GALAH DR4 published: <a href="https://ui.adsabs.harvard.edu/abs/2025PASA...42...51B"
+								target="_blank" rel="noopener noreferrer">Buder et al. (2025b)</a>.</li>
+						<li><strong>2025</strong> — NIHAO-UHD merger-memory manuscripts submitted:
+							<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251011284B" target="_blank" rel="noopener noreferrer">Buder et al. (2025c)</a>,
+							<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251020233B" target="_blank" rel="noopener noreferrer">Buder et al. (2025d)</a>.
+						</li>
+						<li><strong>2024–</strong> — ARC DECRA Fellowship: “How galactic mergers and their stellar survivors shaped our Milky Way”.</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- ASTRONOMY RESEARCH (Theme 1 + Theme 2) -->
+			<section id="science">
+				<div class="container">
+					<h2>Astronomy research</h2>
+
+					<p>
+						The Milky Way is a uniquely detailed laboratory for galaxy evolution: we can measure stellar ages, orbits, and multi-element chemistry star by star.
+						My work uses this resolved fossil record to test how disc galaxies assemble and enrich themselves with heavy elements, and to connect those signatures to origins through cosmological simulations.
+					</p>
+
+					<!-- THEME 1 -->
+					<section id="theme1">
+						<h3>Theme 1: Galaxy evolution via the Milky Way and its analogues</h3>
+						<p>
+							<strong>Core question:</strong> How did galaxies like the Milky Way build their discs and sustain star formation across cosmic time?
+							I address this by combining chemodynamical survey data with cosmological simulations, using the Milky Way as a benchmark for disc formation, merger history, and the survival of stellar populations.
+						</p>
+
+						<div class="features">
+							<article>
+								<a href="https://ui.adsabs.harvard.edu/abs/2025OJAp....8E..47B" target="_blank" rel="noopener noreferrer" class="image">
+									<img src="images/age_map.png" alt="Chemodynamics and chemical cartography of the Milky Way" loading="lazy" />
+								</a>
+								<div class="inner">
+									<h4>Chemo-dynamics as a test of disc formation</h4>
+									<p>
+										I use spatially resolved chemistry and kinematics to test disc growth, radial mixing, and the imprint of past events on today’s Milky Way.
+										Example: local variations in radial metallicity gradients and implications for extragalactic inference.
+									</p>
+								</div>
+							</article>
+
+							<article>
+								<a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2407B/abstract" target="_blank" rel="noopener noreferrer" class="image">
+									<img src="images/eggavocado.jpg" alt="Chemistry-based diagnostic for accreted stars (Egg/Avocado)" loading="lazy" />
+								</a>
+								<div class="inner">
+									<h4>Accretion, mergers, and the fossil record</h4>
+									<p>
+										I developed chemical diagnostics that identify accreted populations and connect them to merger events, combining chemistry with orbits and ages to test formation scenarios.
+									</p>
+								</div>
+							</article>
+
+							<article>
+								<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1010B/abstract" target="_blank" rel="noopener noreferrer" class="image">
+									<img src="images/mergers.png" alt="NIHAO simulations and merger diagnostics" loading="lazy" />
+								</a>
+								<div class="inner">
+									<h4>Simulation tests with Milky Way analogues</h4>
+									<p>
+										I compare cosmological simulations with survey measurements to quantify how major mergers shape discs and halos and to assess how unique the Milky Way’s history may have been.
+									</p>
+								</div>
+							</article>
+						</div>
+
+						<div class="callout">
+							<strong>Selected papers:</strong>
+							<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1010B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2024)</a>,
+							<a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2407B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2022)</a>,
+							<a href="https://ui.adsabs.harvard.edu/abs/2025OJAp....8E..47B" target="_blank" rel="noopener noreferrer">Buder et al. (2025a)</a>.
+							Ongoing: NIHAO-UHD merger-memory manuscripts
+							(<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251011284B" target="_blank" rel="noopener noreferrer">2025c</a>,
+							<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251020233B" target="_blank" rel="noopener noreferrer">2025d</a>).
+						</div>
+					</section>
+
+					<!-- THEME 2 -->
+					<section id="theme2">
+						<h3>Theme 2: The origin of elements</h3>
+						<p>
+							<strong>Core question:</strong> Where and how are the elements forged?
+							I contribute by producing and validating large, homogeneous multi-element abundance data sets (GALAH),
+							and by pushing toward high-precision elemental (and, where feasible, isotopic) measurements with high-resolution spectroscopy.
+						</p>
+
+						<div class="two-col">
+							<div class="callout">
+								<h4 class="tight">What I have delivered</h4>
+								<ul>
+									<li><strong>Survey-scale abundance mapping:</strong> large, homogeneous catalogues that enable population-level constraints on enrichment.</li>
+									<li><strong>Robust spectral inference:</strong> careful modelling, calibration, and systematics control for reliable multi-element patterns.</li>
+									<li><strong>Community data products:</strong> public releases that support broad use beyond a single science case.</li>
+								</ul>
+							</div>
+
+							<div class="callout">
+								<h4 class="tight">Where I want to go next</h4>
+								<ul>
+									<li><strong>Elemental and isotopic precision:</strong> leveraging high-resolution, stable pipelines to resolve subtle signatures.</li>
+									<li><strong>Binary evolution and mixing:</strong> quantifying how binaries and internal processes alter surface abundances.</li>
+									<li><strong>Fast inference of enrichment channels:</strong> extracting nucleosynthetic fingerprints from multi-element data at scale.</li>
+								</ul>
+							</div>
+						</div>
+
+						<section class="tight">
+							<span class="image fit">
+								<img src="images/galah_dr4_periodic_table.png" alt="Periodic table of elements measured in GALAH DR4" loading="lazy" />
+							</span>
+						</section>
+
+						<div class="callout">
+							<strong>Selected releases and papers:</strong>
+							<a href="https://ui.adsabs.harvard.edu/abs/2025PASA...42...51B" target="_blank" rel="noopener noreferrer">Buder et al. (2025b) GALAH DR4</a>,
+							<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.506..150B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2021) GALAH DR3</a>,
+							<a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.478.4513B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2018) GALAH DR2</a>,
+							<a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...624A..19B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2019) GALAH+ TGAS</a>.
+						</div>
+					</section>
+
+					<div class="callout">
+						<strong>Bridge to Theme 3:</strong> Many core challenges in Themes 1–2 (calibration stability, feature attribution, fast inference, and validation) are shared across spectroscopy domains.
+						See <a href="#theme3">Theme 3</a> for how I am interested in translating these methods beyond astronomy.
+					</div>
+
+					<!-- Keep your illustrative spectra -->
+					<h3>Why spectra matter</h3>
+					<p>
+						Spectra encode atomic and molecular fingerprints.
+						Two objects can have similar colours, yet very different absorption-line strengths and chemical compositions.
+						Spectroscopy turns that information into quantitative measurements.
+					</p>
+
+					<div class="center">
+						<img src="images/06_alfCenA_rainbow.png" width="40%" alt="Example stellar spectrum: Alpha Centauri A" loading="lazy" />
+						<img src="images/07_HD140283_rainbow.png" width="40%" alt="Example stellar spectrum: HD 140283" loading="lazy" />
+					</div>
+
+					<section class="tight">
+						<span class="image fit">
+							<img src="images/galah_dr1_dr2_dr3_dr4.png" alt="Evolution of GALAH data releases (DR1–DR4)" loading="lazy" />
+						</span>
+					</section>
+
+				</div>
+			</section>
+
+			<!-- THEME 3: INTERDISCIPLINARY -->
+			<section id="theme3">
+				<div class="container">
+					<h2>Theme 3: Spectroscopy across disciplines</h2>
+
+					<p>
+						<em>Where else can the tools developed for stellar spectroscopy be applied to benefit science and society?</em>
+						I am increasingly interested in interdisciplinary spectroscopy that bridges wavelength domains and research communities.
+						My main track record is in astronomy, but I aim to translate robust spectral inference methods—calibration, feature attribution, uncertainty, and scalable pipelines—across disciplines.
+					</p>
+
+					<div class="callout">
+						<strong>Important note:</strong> I am not presenting myself as an established interdisciplinary spectroscopy specialist.
+						This is a direction I am actively building, and I welcome collaborators who want to co-develop and stress-test methods across domains.
+					</div>
+
+					<div class="two-col">
+						<div class="callout">
+							<h3 class="tight">Concrete ideas I am keen to pursue</h3>
+							<ul>
+								<li><strong>Feature attribution across domains:</strong> identify which wavelength regions carry information for specific properties, and quantify stability across instruments and conditions.</li>
+								<li><strong>Fast, data-driven analysis:</strong> adapt astronomy-style machine-learning spectral inference (validated and regularised) for high-throughput applications.</li>
+								<li><strong>High-resolution isotope spectroscopy:</strong> extract subtle isotopic or fine-structure signatures where blending, line shapes, and calibration stability are limiting factors.</li>
+								<li><strong>Domain shift:</strong> build models that remain reliable when acquisition conditions or sample populations change.</li>
+							</ul>
+						</div>
+
+						<div class="callout">
+							<h3 class="tight">Work that connects well</h3>
+							<ul>
+								<li><strong>Large-scale spectral pipelines:</strong> reproducible, testable workflows from raw data to calibrated spectra to measurements.</li>
+								<li><strong>Data-driven stellar spectroscopy:</strong> learning empirical label–flux mappings with careful validation and suppression of unphysical correlations.</li>
+								<li><strong>Pilot cross-domain exploration:</strong> early work applying astronomy-style data-driven analysis to leaf reflectance spectroscopy as a proof of concept for broader translation.</li>
+							</ul>
+						</div>
+					</div>
+
+					<p class="note">
+						If you would like to connect, a helpful first message includes: spectral modality (reflectance / transmission / emission),
+						wavelength range and resolution, target properties, and the main bottleneck (calibration, ground truth, speed, interpretability, or uncertainty).
+					</p>
+				</div>
+			</section>
+
+			<!-- PUBLICATIONS -->
+			<section id="publications">
+				<div class="container">
+					<h2>Selected publications</h2>
+
+					<p>
+						Below are selected first-author papers (with links). For a complete and up-to-date list, see my
+						<a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Buder%2C%20Sven%22" target="_blank" rel="noopener noreferrer">NASA ADS profile</a>.
+					</p>
+
+					<div class="callout">
+						<strong>Theme 1 (Galaxy evolution):</strong> using Milky Way chemo-dynamics and simulations to test disc evolution and merger history.
+						Examples:
+						<a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1010B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2024)</a>,
+						<a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2407B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2022)</a>,
+						<a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251011284B" target="_blank" rel="noopener noreferrer">Buder et al. (2025c)</a>.
+					</div>
+
+					<div class="callout">
+						<strong>Theme 2 (Origin of elements):</strong> multi-element abundance mapping and precision stellar spectroscopy enabling constraints on nucleosynthetic channels.
+						Examples:
+						<a href="https://ui.adsabs.harvard.edu/abs/2025PASA...42...51B" target="_blank" rel="noopener noreferrer">Buder et al. (2025b)</a>,
+						<a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.506..150B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2021)</a>,
+						<a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.478.4513B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2018)</a>.
+					</div>
+
+					<div class="center">
+						<a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Buder%2C%20Sven%22" target="_blank" rel="noopener noreferrer" class="button">Full publications (ADS)</a>
+					</div>
+
+					<br />
+
+					<table class="default" border="1">
+						<tbody>
+							<tr>
+								<td><a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251020233B" target="_blank" rel="noopener noreferrer">Buder et al. (2025d), MNRAS, submitted (arXiv:2510.20233)</a></td>
+								<td><b>The chemodynamical memory of a major merger in a NIHAO-UHD Milky Way analogue II: Were Splash stars heated or already born hot?</b></td>
+							</tr>
+							<tr>
+								<td><a href="https://ui.adsabs.harvard.edu/abs/2025arXiv251011284B" target="_blank" rel="noopener noreferrer">Buder et al. (2025c), MNRAS, submitted (arXiv:2510.11284)</a></td>
+								<td><b>The chemodynamical memory of a major merger in a NIHAO-UHD Milky Way analogue I: A golden thread through time and space</b></td>
+							</tr>
+							<tr>
+								<td><a href="https://ui.adsabs.harvard.edu/abs/2025PASA...42...51B" target="_blank" rel="noopener noreferrer">Buder et al. (2025b), PASA, 42, 51</a></td>
+								<td><b>The GALAH Survey: Data Release 4</b></td>
+							</tr>
+							<tr>
+								<td><a href="https://ui.adsabs.harvard.edu/abs/2025OJAp....8E..47B" target="_blank" rel="noopener noreferrer">Buder et al. (2025a), OJAp, 8, 47</a></td>
+								<td><b>Local variations of the radial metallicity gradient in a simulated NIHAO-UHD Milky Way analogue and their implications for (extra-)galactic studies</b></td>
+							</tr>
+							<tr>
+								<td><a href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.532.1010B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2024), MNRAS, 532, 1010</a></td>
+								<td><b>Finding accreted stars in the Milky Way: clues from NIHAO simulations</b></td>
+							</tr>
+							<tr>
+								<td><a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2407B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2022), MNRAS, 510, 2407</a></td>
+								<td><b>The GALAH Survey: chemical tagging and chrono-chemodynamics of accreted halo stars with GALAH+ DR3 and Gaia eDR3</b></td>
+							</tr>
+							<tr>
+								<td><a href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.506..150B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2021), MNRAS, 506, 150</a></td>
+								<td><b>The GALAH+ survey: Third data release</b></td>
+							</tr>
+							<tr>
+								<td><a href="https://ui.adsabs.harvard.edu/abs/2019A%26A...624A..19B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2019), A&amp;A, 624, A19</a></td>
+								<td><b>The GALAH survey: an abundance, age, and kinematic inventory of the solar neighbourhood made with TGAS</b></td>
+							</tr>
+							<tr>
+								<td><a href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.478.4513B/abstract" target="_blank" rel="noopener noreferrer">Buder et al. (2018), MNRAS, 478, 4513</a></td>
+								<td><b>The GALAH Survey: second data release</b></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<br />
+
+					<div class="features">
+						<article>
+							<a class="image">
+								<img src="images/collaboration_affilations.png" alt="World map showing international collaboration network" loading="lazy" />
+							</a>
+							<div class="inner">
+								<h4>International collaborations</h4>
+								<p>My collaboration network spans more than 20 countries and includes large survey teams and interdisciplinary partners.</p>
+							</div>
+						</article>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- SOFTWARE -->
+			<section id="software">
+				<div class="container">
+					<h2>Software &amp; data</h2>
+
+					<p>
+						I build reproducible pipelines for spectral analysis and large data sets.
+						Code and documentation are shared via GitHub where possible.
+					</p>
+
+					<ul>
+						<li><strong>GitHub:</strong> <a href="https://github.com/svenbuder" target="_blank" rel="noopener noreferrer">github.com/svenbuder</a></li>
+						<li><strong>ORCID:</strong> <a href="https://orcid.org/0000-0002-4031-8553" target="_blank" rel="noopener noreferrer">0000-0002-4031-8553</a></li>
+						<li><strong>GALAH:</strong> <a href="https://www.galah-survey.org" target="_blank" rel="noopener noreferrer">galah-survey.org</a></li>
+					</ul>
+
+					<div class="callout">
+						<strong>Tip:</strong> Pin 3–5 representative repositories and add one-line descriptions here (pipeline, calibration tools, analysis notebooks, teaching materials).
+					</div>
+				</div>
+			</section>
+
+			<!-- STUDENTS -->
+			<section id="students">
+				<div class="container">
+					<h2>For students</h2>
+
+					<p>
+						I supervise projects at multiple levels (Honours, PhD, and visitor projects).
+						Projects often combine three components: (1) scientific questions, (2) real data sets, and (3) modern analysis and reproducible software.
+					</p>
+
+					<div class="two-col">
+						<div class="callout">
+							<h3 class="tight">What you will learn</h3>
+							<ul>
+								<li>How to turn spectra into measurements (calibration, modelling, validation).</li>
+								<li>How to work with large data sets (Python, statistics, uncertainty, pipelines).</li>
+								<li>How to communicate results (figures, writing, talks, reproducibility).</li>
+							</ul>
+						</div>
+						<div class="callout">
+							<h3 class="tight">Who should reach out</h3>
+							<ul>
+								<li>Astronomy students interested in the Milky Way, surveys, or simulations.</li>
+								<li>Students from physics, data science, or engineering who want to work with spectroscopy.</li>
+								<li>Interdisciplinary students interested in translating spectral methods to Earth applications.</li>
+							</ul>
+						</div>
+					</div>
+
+					<p class="note">
+						RSAA’s potential projects list can be a useful starting point:
+					</p>
+
+					<div class="center">
+						<a href="https://rsaa.anu.edu.au/study/potential-projects" target="_blank" rel="noopener noreferrer" class="button">RSAA potential projects</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- OUTREACH -->
+			<section id="outreach">
+				<div class="container">
+					<h2>Outreach &amp; media</h2>
+
+					<p>
+						I enjoy communicating science to broad audiences, from public talks to interviews.
+						My goal is to make spectroscopy intuitive: light is information, and spectra are a practical way to decode it.
+					</p>
+
+					<div class="two-col">
+						<div class="callout">
+							<h3 class="tight">Talk topics (examples)</h3>
+							<ul>
+								<li>What is hidden in starlight?</li>
+								<li>The Milky Way’s history written in spectra</li>
+								<li>Spectroscopy across disciplines: when astronomy tools help elsewhere</li>
+							</ul>
+						</div>
+						<div class="callout">
+							<h3 class="tight">Press resources</h3>
+							<ul>
+								<li>Short bio (100–150 words): <a href="data/Sven_Buder_Bio_short.pdf" target="_blank" rel="noopener noreferrer">PDF</a></li>
+								<li>Headshot: <a href="images/avatar.jpg" target="_blank" rel="noopener noreferrer">image</a></li>
+								<li>Selected visuals: <a href="images/collage.jpg" target="_blank" rel="noopener noreferrer">collage</a>, <a href="images/impact.png" target="_blank" rel="noopener noreferrer">impact</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<p class="note">
+						If you are a journalist, producer, or event organiser, please contact me and include the topic, audience, format, and timeframe.
+					</p>
+				</div>
+			</section>
+
+			<!-- ABOUT -->
+			<section id="about">
+				<div class="container">
+					<h2>About</h2>
+
+					<h3>Academic summary</h3>
+					<p>
+						I am a Galactic archaeologist and stellar astrophysicist.
+						I use stellar spectra to measure detailed chemical abundances and combine them with stellar ages and orbits to reconstruct the Milky Way’s evolution.
+						I completed my PhD in 2019 at the Max Planck Institute for Astronomy (Heidelberg) on combining Gaia kinematics with high-resolution spectroscopy from GALAH.
+						At the Australian National University, I contribute to survey-scale spectroscopy and to methods that enable precision chemo-dynamics, with a focus on how major mergers shaped the Milky Way.
+					</p>
+
+					<section>
+						<a href="https://ui.adsabs.harvard.edu/abs/2019PhDT.......172B/abstract" target="_blank" rel="noopener noreferrer" class="image fit">
+							<img src="images/phd_defence.jpg" alt="PhD defence blackboard summary photo" loading="lazy" />
+							A summary of my PhD: the blackboard used during my PhD defence.
+						</a>
+					</section>
+
+					<h3>Curriculum vitae (timeline)</h3>
+					<div class="table-wrapper table-wrapper-narrow" style="overflow-x:hidden;">
+						<table class="default" border="1">
+							<tbody>
+								<tr>
+									<td>Since 2024</td>
+									<td>
+										<a href="https://www.arc.gov.au/funding-research/funding-schemes/discovery-program/discovery-early-career-researcher-award-decra"
+											target="_blank" rel="noopener noreferrer">ARC DECRA Fellow</a> (Level C),
+										Research School of Astronomy and Astrophysics, Australian National University (Canberra, Australia)
+									</td>
+								</tr>
+								<tr>
+									<td>May–Sep 2023</td>
+									<td>
+										Secondment as Research Software Engineer to the
+										<a href="https://www.access-nri.org.au" target="_blank" rel="noopener noreferrer">ACCESS-NRI</a>
+									</td>
+								</tr>
+								<tr>
+									<td>2023–2024</td>
+									<td>Fellow (Level C), Research School of Astronomy and Astrophysics, ANU</td>
+								</tr>
+								<tr>
+									<td>2019–2022</td>
+									<td>Research Fellow (Level B), Research School of Astronomy and Astrophysics, ANU</td>
+								</tr>
+								<tr>
+									<td>2015–2019</td>
+									<td>
+										PhD (Dr. rer. nat.), Ruprecht-Karls-University Heidelberg (Germany)<br />
+										Workplace: <a href="https://www.mpia.de/en" target="_blank" rel="noopener noreferrer">Max Planck Institute for Astronomy</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Aug–Dec 2014</td>
+									<td>ERASMUS+ exchange semester at <a href="https://www.uu.se/en" target="_blank" rel="noopener noreferrer">Uppsala University</a> (Sweden)</td>
+								</tr>
+								<tr>
+									<td>2013–2015</td>
+									<td>Master of Science in Physics, <a href="https://www.uni-jena.de/en" target="_blank" rel="noopener noreferrer">Friedrich Schiller University of Jena</a> (Germany)</td>
+								</tr>
+								<tr>
+									<td>2010–2013</td>
+									<td>Bachelor of Science in Physics, <a href="https://www.uni-jena.de/en" target="_blank" rel="noopener noreferrer">Friedrich Schiller University of Jena</a> (Germany)</td>
+								</tr>
+								<tr>
+									<td>2010–2013</td>
+									<td>
+										Assistant in Federal Parliamentary Office of Federal Minister of the Interior/Defence
+										<a href="https://www.thomasdemaiziere.de" target="_blank" rel="noopener noreferrer">Dr Thomas de Maizière</a> (Berlin, Germany)
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="center">
+						<a href="data/Sven_Buder_CV_Oct2025.pdf" target="_blank" rel="noopener noreferrer" class="button">CV (PDF)</a>
+					</div>
+
+					<br />
+
+					<h3>Outside academia</h3>
+					<p>
+						Outside academia I enjoy endurance sports (running, cycling, and triathlon) and community activities.
+						I value mentoring and collaborative environments and I aim to contribute to supportive research cultures.
+					</p>
+				</div>
+			</section>
+
+			<!-- CONTACT -->
+			<section id="contact">
+				<div class="container">
+					<h2>Contact</h2>
+
+					<p>
+						Please contact me for collaborations, seminar invitations, student supervision, or media requests.
+						If possible, include your audience, timeframe, and the type of support you are seeking.
+					</p>
+
+					<ul class="feature-icons">
+						<li class="fa-envelope">
+							<a href="mailto:sven.buder@anu.edu.au"><span class="label">sven.buder@anu.edu.au</span></a>
+						</li>
+						<li class="icon fa-home">
+							Mount Stromlo Observatory,<br />
+							The Australian National University,<br />
+							Canberra 2611 ACT, Australia
+						</li>
+						<li class="icon brands fa-twitter">
+							<a href="https://twitter.com/astro_sven" target="_blank" rel="noopener noreferrer"><span class="label">Twitter / X</span></a>
+						</li>
+						<li class="icon brands fa-github">
+							<a href="https://github.com/svenbuder" target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a>
+						</li>
+					</ul>
+
+				</div>
+			</section>
+
+			<!-- OPTIONAL FOOTER NOTE -->
+			<section>
+				<div class="container">
+					<p class="note">Last updated: <span id="last-updated">2026-03-03</span></p>
+				</div>
+			</section>
+
+		</div>
+	</div>
+
+	<script>
+		(function () {
+			var el = document.getElementById('last-updated');
+			if (!el) return;
+			var d = new Date();
+			var yyyy = d.getFullYear();
+			var mm = String(d.getMonth() + 1).padStart(2, '0');
+			var dd = String(d.getDate()).padStart(2, '0');
+			el.textContent = yyyy + '-' + mm + '-' + dd;
+		})();
+	</script>
+
+</body>
+
+</html>
