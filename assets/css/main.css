@@ -2632,6 +2632,8 @@ input, select, textarea {
 
 /* Section/Article */
 
+	section { scroll-margin-top: 2rem; }  /* tune to your nav height */
+
 	section.special, article.special {
 		text-align: center;
 	}
