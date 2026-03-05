@@ -193,6 +193,12 @@ input, select, textarea {
 			text-align: justify;
 		}
 
+		@media screen and (max-width: 736px) {
+		p {
+			text-align: left !important;
+		}
+		}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.5;
@@ -3859,6 +3865,21 @@ input, select, textarea {
   border-radius: 8px;
 }
 
+@media screen and (max-width: 736px) {
+
+	.callout h2 {
+		width: 100%;
+	}
+
+	.callout .image.right {
+		float: none;
+		display: block;
+		margin: 1em auto;
+		text-align: center;
+	}
+
+}
+
 /* Collapsible theme boxes */
 details.callout {
   padding: 1.25rem 1.5rem 0.9rem 1.5rem;
@@ -3958,4 +3979,20 @@ details.callout[open] > summary .details-hint::after {
   .highlight-visual-vertical {
     margin-top: 1.5rem;
   }
+}
+
+.collab-skills {
+  list-style-type: disc;
+  padding-left: 2rem;
+  margin-top: 0.4rem;
+}
+
+.collab-skills li {
+  margin-bottom: 0.6rem;
+}
+
+.collab-skills li span {
+  display: block;
+  margin-left: 1.2rem;
+  font-size: 0.95em;
 }
